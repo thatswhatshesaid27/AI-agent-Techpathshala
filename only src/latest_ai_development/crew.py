@@ -5,8 +5,7 @@ from crewai.project import CrewBase, agent, crew, task
 # you can use the @before_kickoff and @after_kickoff decorators
 # https://docs.crewai.com/concepts/crews#example-crew-class-with-decorators
 
-#secret-key 2
-# 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
+
 @CrewBase
 class LatestAiDevelopment():
 	"""LatestAiDevelopment crew"""
