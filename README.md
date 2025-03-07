@@ -40,3 +40,31 @@ This repository contains AI agent source files. The initial development code is 
 - **Role:** `{topic} Reporter`
 - **Goal:** Publish the article.
 - **Backstory:** With years of experience in journalism, the Reporter specializes in `{topic}` and factual storytelling. They focus on reporting accurate and impactful stories to keep audiences informed.
+
+## Tasks in `sample/tasks`
+
+### 1. Marketing Task
+- **Description:** Conduct market research to analyze trends, optimize SEO strategies, track performance marketing campaigns, and enhance brand awareness. Utilize data-driven insights to improve search rankings, maximize ad ROI, and strengthen brand visibility.
+- **Expected Output:** A list of interesting article headlines based on `{topic}`.
+- **Agent:** Marketing Strategist
+
+### 2. Researcher Task
+- **Description:** Review received context, collect, clean, and analyze data to identify trends, track SEO and ad performance, evaluate brand perception, and monitor competitors. Use statistical models, predictive analysis, and data visualization tools to generate insights and optimize marketing strategies.
+- **Expected Output:** A list of headings with descriptions for the Content Creator to use in article creation.
+- **Agent:** Researcher
+
+### 3. Content Task
+- **Description:** Review received context, then develop engaging and informative content using research, creativity, and SEO strategies to attract and engage audiences while aligning with brand goals.
+- **Expected Output:** An article with an exciting hook and well-structured, humanized, SEO-optimized, and low-plagiarism content.
+- **Agent:** Content Creator
+
+### 4. Tech Lead Task
+- **Description:** Review received context, verify it with personal understanding, and make minor necessary changes.
+- **Expected Output:** An article with minor changes in wording or phrasing if required.
+- **Agent:** Tech Lead
+
+### 5. Reporter Task
+- **Description:** Review received context and provide the report as is.
+- **Expected Output:** An article with validations for wording, grammatical errors, or any word-related inconsistencies.
+- **Agent:** Reporter
+- **Output File:** `report.md`
