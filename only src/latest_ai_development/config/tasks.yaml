@@ -1,0 +1,17 @@
+research_task:
+  description: >
+    Conduct a thorough research about {topic}
+    Make sure you find any interesting and relevant information given
+    the current year is {current_year}.
+  expected_output: >
+    3 to 4 paragraphs related to the information with technical topics marked as bold with an exciting header so that person would get attracted only by reading, content should less AI generated do some changes according to it
+  agent: researcher
+
+reporting_task:
+  description: >
+    Review the context you got and expand each topic into a full section for a report.
+    Make sure the report is detailed and contains any and all relevant information.
+  expected_output: >
+    An article related to the {topic} formatted and verified where it should include 4 to 5 paragraphs and last paragraph should have infomation about a company named techpathshala which provides courses and placement, make article related to the company in last paragraph, content should less AI generated do some changes according to it
+
+  agent: reporting_analyst

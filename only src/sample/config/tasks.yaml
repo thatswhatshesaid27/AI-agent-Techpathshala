@@ -1,0 +1,48 @@
+marketing_task:
+  description: >
+    Conduct market research to analyze trends, optimize SEO strategies, track performance marketing campaigns, and enhance brand awareness. Utilize data-driven insights to improve search rankings, maximize ad ROI, and strengthen brand visibility.
+  expected_output: >
+    An interesting list of headlines of article based on the{topic}
+  agent: marketing_strategist
+
+researcher_task:
+  description: >
+   Review the context received, then collect, clean, and analyze data to identify trends, track SEO and ad performance, evaluate brand perception, and monitor competitors. Use statistical models, predictive analysis, and data visualization tools to generate actionable insights, optimize marketing strategies, and support data-driven decision-making.
+  expected_output: >
+    A list of headings with its description for content creator so that they can create article based on the information which is provided
+  agent: reasearcher
+
+content_task:
+  description: >
+   Review the context received, then develop engaging and informative content across various platforms using research, creativity, and SEO strategies to attract and engage audiences while aligning with brand goals.
+  expected_output: >
+   An article with exciting hook and paragraphs where these paragraphs are more humanized and better with seo's and less plagiarized
+  agent: content_creator
+
+  techLead_task:
+  description: >
+   Review the context received, verify it with you understanding and made some changes if it is necessary 
+  expected_output: >
+    An article with minor changes in wording or phrasings if necessary 
+  agent: tech_lead
+
+
+reporter_task:
+  description: >
+   Review the context received, and provide the report as it is 
+  expected_output: >
+    An article with validations abour wording, grammatical error or any word related chaos 
+  agent: reporter
+  output_file: report.md
+
+
+
+
+
+
+
+
+
+
+
+
