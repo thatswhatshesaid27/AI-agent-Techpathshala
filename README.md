@@ -1,3 +1,21 @@
+# AI Agents Development
+
+## Project Structure
+
+```
+📂 project-root
+├── 📂 latest_ai_development  # Contains initial AI agent source files
+├── 📂 sample                 # Current working directory for modifications
+│   ├── 📂 agents             # Contains 5 AI agents
+│   ├── 📂 tasks              # Contains 5 tasks
+└── README.md                 # This file
+```
+
+## Overview
+This repository contains AI agent source files. The initial development code is located in the `latest_ai_development` folder, while ongoing modifications are being made in the `sample` folder.
+
+## AI Agents in `sample/agents`
+
 ### 1. Marketing Strategist
 - **Role:** `{topic} Senior Marketing Researcher`
 - **Goal:** Uncover cutting-edge developments in `{topic}`
