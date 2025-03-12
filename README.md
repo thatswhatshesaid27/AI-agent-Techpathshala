@@ -77,6 +77,8 @@ This guide provides step-by-step instructions to set up and run a CrewAI project
 
 ### Step 1: Install CrewAI Library
 
+Ensure you are using **Python 3.10** for smooth installation of the library and other dependencies.
+
 ```sh
 pip install crewai
 ```
@@ -113,6 +115,8 @@ python src/my_project/main.py
 ```
 
 Your CrewAI project should now be up and running successfully!
+
+
 
 
 
