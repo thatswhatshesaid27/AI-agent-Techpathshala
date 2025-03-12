@@ -62,7 +62,13 @@ This repository contains AI agent source files. The initial development code is 
 - **Description:** Review received context, verify it with personal understanding, and make minor necessary changes.
 - **Expected Output:** An article with minor changes in wording or phrasing if required.
 - **Agent:** Tech Lead
-- 
+
+
+### 5. Reporter Task
+- **Description:** Review received context and provide the report as is.
+- **Expected Output:** An article with validations for wording, grammatical errors, or any word-related inconsistencies.
+- **Agent:** Reporter
+- **Output File:** `report.md`
 
 
 This guide provides step-by-step instructions to set up and run a CrewAI project.
@@ -110,8 +116,3 @@ Your CrewAI project should now be up and running successfully!
 
 
 
-### 5. Reporter Task
-- **Description:** Review received context and provide the report as is.
-- **Expected Output:** An article with validations for wording, grammatical errors, or any word-related inconsistencies.
-- **Agent:** Reporter
-- **Output File:** `report.md`
