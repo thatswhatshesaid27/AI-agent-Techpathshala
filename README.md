@@ -62,6 +62,53 @@ This repository contains AI agent source files. The initial development code is 
 - **Description:** Review received context, verify it with personal understanding, and make minor necessary changes.
 - **Expected Output:** An article with minor changes in wording or phrasing if required.
 - **Agent:** Tech Lead
+- 
+
+
+This guide provides step-by-step instructions to set up and run a CrewAI project.
+
+## Installation
+
+### Step 1: Install CrewAI Library
+
+```sh
+pip install crewai
+```
+
+### Step 2: Create a New CrewAI Project
+
+```sh
+crewai create crew sample
+```
+
+### Step 3: Copy Sample Folder
+Copy the `sample` folder from this repository and paste it into your project directory.
+
+### Step 4: Create a `.env` File
+Inside the `src` folder of your project, create a `.env` file and add the following parameters:
+
+```
+MODEL=<your_model>
+OPENAI_API_KEY=<your_openai_api_key>
+SERPER_API_KEY=<your_serper_api_key>
+```
+
+### Step 5: Run the Crew
+Navigate to the root of your project and execute one of the following commands:
+
+```sh
+crewai run
+```
+
+or
+
+```sh
+python src/my_project/main.py
+```
+
+Your CrewAI project should now be up and running successfully!
+
+
 
 ### 5. Reporter Task
 - **Description:** Review received context and provide the report as is.
