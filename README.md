@@ -92,8 +92,8 @@ crewai create crew sample
 ### Step 3: Copy Sample Folder
 Copy the `sample` folder from this repository and paste it into your project directory.
 
-### Step 4: Create a `.env` File
-Inside the `src` folder of your project, create a `.env` file and add the following parameters:
+### Step 4: Modify a `.env` File
+Inside the folder of your project, modify `.env` file and add the following parameters:
 
 ```
 MODEL=<your_model>
